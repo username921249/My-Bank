@@ -9,7 +9,7 @@ import database.BankAccount;
 import database.BankDatabase;
 
 public class Deposit {
-	File file = new File("D:/New folder/Bank/src/accounts.json");
+	File file = new File("accounts.json");
 	Gson gson = new Gson();
 	
 	public void deposit(int accountNumber, double money, BankDatabase bankDatabase) {

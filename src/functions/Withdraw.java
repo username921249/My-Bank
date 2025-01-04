@@ -9,7 +9,7 @@ import database.BankAccount;
 import database.BankDatabase;
 
 public class Withdraw {
-	File file = new File("D:/New folder/Bank/src/accounts.json");
+	File file = new File("accounts.json");
 	Gson gson = new Gson();
 	public void withdraw(int accountNumber, double money, BankDatabase bankDatabase) {
 		int index = 0;

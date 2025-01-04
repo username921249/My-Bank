@@ -10,7 +10,7 @@ import database.BankAccount;
 import database.BankDatabase;
 
 public class CreateAccount {
-	File file = new File("D:/New folder/Bank/src/accounts.json");
+	File file = new File("accounts.json");
 	Gson gson = new Gson();
 	public void createAccount(int accountNumber, String name, BankDatabase bDatabase) {
 		bDatabase.bankAccounts.add(new BankAccount(accountNumber, name, 0));

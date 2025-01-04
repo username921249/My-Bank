@@ -27,7 +27,7 @@ public class Main extends JFrame {
     DeletePanel deletePanel;
     public BankDatabase bDatabase = new BankDatabase();
     java.lang.reflect.Type listType = new TypeToken<BankDatabase>(){}.getType();
-    String json = readJsonFromFile("D:/New folder/Bank/src/accounts.json");
+    String json = readJsonFromFile("accounts.json");
 
     public Main() {
         // Set up the JFrame first
